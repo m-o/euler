@@ -5,7 +5,8 @@ package name.ovecka;
  */
 public class problem_3 {
 
-    public static int run(long number) {
+    public static void run() {
+        long number = 600851475143l;
         int i;
 
         for (i = 2; i <= number; i++) {
@@ -14,7 +15,6 @@ public class problem_3 {
                 i--;
             }
         }
-
-        return i;
+        System.out.println("Problem 3 result: "+i);
     }
 }

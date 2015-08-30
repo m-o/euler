@@ -18,7 +18,7 @@ public class problem_4 {
                 }
             }
         }
-        System.out.println("Problem 3 result: " + num);
+        System.out.println("Problem 4 result: " + num);
     }
 
     private static int generatePalindrom(int i){

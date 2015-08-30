@@ -3,6 +3,6 @@ package name.ovecka;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        problem_1.run();
     }
 }
